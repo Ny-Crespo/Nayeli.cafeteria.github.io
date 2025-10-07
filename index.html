@@ -1,0 +1,127 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café ''Nube de Vapor''</title>
+    <style>
+        /* Estilos básicos para darle un toque acogedor */
+        body { font-family: 'Georgia', serif; margin: 0; padding: 0; background-color: #F5EFE6; color: #3D2B1F; }
+        header, section, footer { padding: 20px; margin: 10px auto; max-width: 900px; background-color: #FFFFFF; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        h1, h2 { color: #A0522D; text-align: center; }
+        .menu-item { margin-bottom: 10px; border-bottom: 1px dotted #D2B48C; padding-bottom: 5px; }
+        .reseña { font-style: italic; color: #555; border-left: 3px solid #D2B48C; padding-left: 15px; margin-top: 15px; }
+        form label { display: block; margin-top: 10px; }
+        form input, form textarea { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        form button { background-color: #A0522D; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: crimson;">Café ''Nube de Vapor''</h1>
+        <p style="text-align: center;">Tu pausa perfecta en la ciudad.</p>
+    </header>
+    <!-- 1. Imagen simple -->
+    <img src="c:\Users\Lenovo\Downloads\cafe.jpg" alt="Descripción breve de la imagen" width="400" height="300">
+    <img src="c:\Users\Lenovo\Downloads\coffee.jpg" alt="Descripción breve de la imagen" width="400" height="300">
+    <img src="c:\Users\Lenovo\Downloads\coffe.jpg" alt="Descripción breve de la imagen" width="400" height="300">
+    <img src="c:\Users\Lenovo\Downloads\ccccf.jpg" alt="Descripción breve de la imagen" width="400" height="300">
+    <!-- SONIDO (Música de fondo suave) -->
+    <section id="sonido">
+        <h2>Ambiente Musical</h2>
+        <!-- Reemplaza 'musica_fondo.mp3' por el nombre real de tu archivo de audio -->
+        <audio controls loop>
+            <source src="c:\Users\Lenovo\Downloads\The Police - Every Breath You Take (Visualiser).mp3" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+    </section>
+
+    <!-- MENÚ -->
+    <section id="menu">
+        <h2> Menú Importante</h2>
+        <div class="menu-item"><strong>Café Pasado (Puro)</strong> - \$2.50</div>
+        <div class="menu-item"><strong>Latte de Canela</strong> - \$3.75</div>
+        <div class="menu-item"><strong>Chocolate Caliente Artesanal</strong> - \$4.00</div>
+        <div class="menu-item"><strong>Tostada Francesa con Frutas de la Sierra</strong> - \$5.50</div>
+    </section>
+    <section id="Nuestro Menu">
+    <h2>Nuestro Menu</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr style="background-color: #A0522D; color: white;">
+                <th style="padding: 10px; text-align: left;">Producto</th>
+                <th style="padding: 10px; text-align: left;">Descripción</th>
+                <th style="padding: 10px; text-align: left;">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Tinto</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">Café negro tradicional, el clásico ecuatoriano.</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">\$1.50</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Mocaccino</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">Espresso, chocolate y leche vaporizada.</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">\$4.25</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Capuchino</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">Espresso con leche y abundante espuma.</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">\$3.50</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Croissant de Almendras</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">Perfecto para acompañar el café de la mañana.</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">\$3.00</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Sanduche de Jamón y Queso</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">Caliente y recién hecho.</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">\$4.50</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+  <!-- VIDEO -->
+    <section id="video">
+        <h2>Nuestra Preparación</h2>
+        <!-- Reemplaza 'video_preparacion.mp4' por el nombre real de tu archivo de video -->
+        <video width="100%" controls poster="imagen_portada.jpg">
+            <source src="c:\Users\Lenovo\Downloads\Coffee shop promo video Sony a7III with Sigma 24-70mm f2.8 - Marian Peciar (360p, h264, youtube).mp4"
+             type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </section>
+
+    <!-- RESEÑA -->
+    <section id="reseña">
+        <h2>Lo que dicen de nosotros</h2>
+        <div class="reseña">
+            "El mejor café que he probado en Ambato, el ambiente es súper tranquilo para trabajar. ¡Un tesoro escondido!" - Ana C.
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section id="contacto">
+        <h2>Haz tu Pedido o Reserva</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Tu Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="mensaje">Mensaje o Pedido:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar Solicitud</button>
+        </form>
+    </section>
+
+    <!-- DIRECCIÓN -->
+    <footer id="direccion">
+        <h2>Visítanos</h2>
+        <p><strong>Dirección:</strong> Calle Victor Hugo, Sector Mall de los Andes, Ambato, Ecuador.</p>
+        <p>Horario: Lunes a Sábado de 7:00 a 19:00.</p>
+    </footer>
+
+</body>
